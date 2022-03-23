@@ -9,12 +9,15 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 
-	border-size: 3px;
-	border-style: solid;
-	border-color: #931420;
+	border: 3px solid #931420;
+	background-color: #fffded;
 }
 
 /* the styles for the header */
+
+header{
+	border-bottom: 3px solid #931420;
+}
 header img {
 	float: left;
 }
@@ -40,6 +43,8 @@ main {
 
 }
 main h1 {
+	border-bottom: 3px solid #931420;
+	border-top: 3px solid #931420;
 	font-size: 150%;
 }
 
@@ -59,6 +64,10 @@ a:hover{
 	font-style: italic;
 }
 /* the styles for the footer */
+footer{
+	background-color:#931420;
+}
 footer p {
+	color: white;
 	text-align: center;
 }
